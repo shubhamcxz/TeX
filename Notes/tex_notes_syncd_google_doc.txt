@@ -1,0 +1,46 @@
+# Created: SUN 01 JULY 2018 08:07 AM
+# Created by: Shubham Kumar
+
+<note>
+\documentclass[options]{class}
+Refer Page: 9
+Learn about other options
+</note>
+
+<note>
+Package list
+Refer page: 12
+</note>
+
+<note>
+\pagestyle{style} %style = plain headings empty
+\thispagestyle{style} %for currebt page only
+\include{}
+\includeonly{} % goes in preamble
+
+\input{}
+
+\usepackage{syntonly}
+\syntaxonly % comment - uncomment for heavy processing - skimming.
+</note>
+
+<note>
+* Chapter : 2
+
+\\
+
+\newline
+
+\\* % prohibits page break after a forced line break
+
+\newpage
+
+\linebreak[n]  % n == 0 to 4
+\nolinebreak[n]
+\pagebreak[n]
+\nopagebreak[n]
+
+\sloppy
+\fussy
+
+</note>
