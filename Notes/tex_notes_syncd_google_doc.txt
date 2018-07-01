@@ -42,5 +42,29 @@ Refer page: 12
 
 \sloppy
 \fussy
+\mbox{}
+\fbox{}
+
+``double quotes''
+`single quote'
+
+% ‘-’ hyphen, ‘–’ en-dash, ‘—’ em-dash and ‘−’ minus sign.
+verylongwordbutyouwant\-hyphens\-onlyat\-these\-places
+\~ %tilde
+$\sim$%better one
+\slash
+$30\,^{circ}\mathrm{C}$
+
+the package textcomp
+\usepackage{textcomp}
+\textcelsius
+\textdegree
+\texteuro
+\usepackage[official]{eurosym}
+This is the correct way to enter ellipsis :  \ldots
+
+\usepackage[autostyle=true]{csquotes} % must be loaded before loading the language pack
+\setdefaultlanguage{english}
+\setotherlanguage{german}
 
 </note>
